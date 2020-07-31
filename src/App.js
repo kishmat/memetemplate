@@ -10,8 +10,8 @@ function App() {
       <Router>
         <div>
           <Switch>
-          <Route path='/memetemplate' exact component={Home}/>
-          <Route path='/memetemplate/post' exact component={Post}/>
+          <Route exact path='/memetemplate' component={Home}/>
+          <Route path='/memetemplate/post' component={Post}/>
           </Switch>
         </div>
       </Router>
